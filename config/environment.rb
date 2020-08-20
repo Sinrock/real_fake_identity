@@ -1,0 +1,11 @@
+require 'pry'
+require 'open-uri'
+require 'net/http'
+require 'uri-handler'
+require 'json'
+require 'colorize'
+
+require_relative '../lib/real_fake_identity.rb'
+require_relative '../lib/API.rb'
+require_relative '../lib/cli.rb'
+require_relative '../lib/identity.rb'
